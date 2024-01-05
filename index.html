@@ -17,18 +17,19 @@
         <!-- *navbar start from here -->
         <nav class="bg-[#00b98e] border-b">
             <div class="container mx-auto py-6">
-                <div class="flex justify-between items-center mx-10">
-                    <h1 class="font-extrabold text-4xl text-white">BizConsult</h1>
-
+                <!-- todo navabr main parent div -->
+                <div class="flex justify-between items-center lg:mx-10 mx-5">
+                    <h1 class="font-extrabold lg:text-4xl text-2xl text-white">BizConsult</h1>
+                    <!-- ?navbar-ul list -->
                      <div class="flex gap-20 items-center">
                        <ul class="flex gap-16 text-white font-semibold text-base">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Service</li>
-                            <li>Contact</li>
+                            <li class="cursor-pointer lg:block md:block hidden">Home</li>
+                            <li class="cursor-pointer lg:block md:block hidden">About</li>
+                            <li class="cursor-pointer lg:block hidden">Service</li>
+                            <li class="cursor-pointer lg:block hidden">Contact</li>
                         </ul>
         
-                        <button class="bg-white py-2 px-5 rounded-full text-[#00b98e]">Free Quote</button>
+                        <button class="bg-white lg:py-2 py-[7px] px-5 rounded-full text-[#00b98e] cursor-pointer">Free Quote</button>
                     </div>
                 </div>
             </div>

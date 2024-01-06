@@ -14,3 +14,8 @@
 .sec-border{
     border: 1px solid #cecece94;
 }
+
+.sec-3-card:hover{
+    background: none;
+    border: 1px solid #00b98e;
+}

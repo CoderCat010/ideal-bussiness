@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- !header section start from here -->
-    <header>
+    <header class="mb-28">
         <!-- *navbar start from here -->
         <nav class="bg-[#00b98e] border-b">
             <div class="container mx-auto py-6">
@@ -36,7 +39,7 @@
         </nav>
         <!-- navbar ends -->
         <!-- *banner section start from here -->
-        <div class="banner-section mb-28">
+        <div class="banner-section">
             <!-- main div -->
             <div class="container mx-auto">
                 <!-- todo banner parent div start from here -->
@@ -44,12 +47,12 @@
                     <!-- ?banner title -->
                      <div class="space-y-7 lg:text-left md:text-left text-center">
                          <h1 class="font-extrabold text-white lg:text-5xl md:text-[23px] text-3xl">We Help To Push Your <br> Business To The Top Level</h1>
-                         <p class="lg:w-[500px] md:w-[300px] w-[100%] lg:text-base md:text-sm text-[17px] text-white">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem.</p>
+                         <p class="lg:w-[500px] md:w-[300px] w-[100%] lg:text-base md:text-sm text-[17px] text-[#fffffffa]">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem.</p>
                          <button class="py-2 px-6 border-2 border-white rounded-full text-white font-semibold">Learn More</button>
                      </div>
                     <!-- ?banner title's img -->
                      <div>
-                        <img class="lg:w-[485px]  lg:h-[417px]" src="./img/hero.png" alt="">
+                        <img class="lg:w-[485px] md:w-[480px] w-[450px] lg:h-[417px]" src="./img/hero.png" alt="">
                      </div>
                 </div>
             </div>
@@ -60,6 +63,47 @@
         </div>
         <!-- banner ends -->
     </header>
-    <!-- !header section start from here -->
+    <!-- //header section ends here -->
+    
+    <!-- !main section start from here -->
+    <main>
+        <!-- *section 1 start from here -->
+        <section class="container mx-auto mt-[150px] mb-[120px]">
+            <!-- todo sec-1 main parent div -->
+            <div class="flex lg:flex-row flex-col-reverse justify-between lg:mx-16 md:mx-10 mx-5">
+                <!-- ?sec-1 img -->
+                <div>
+                    <img class="w-[512px] h-[377px]" src="./img/about.png" alt="">
+                </div>
+                <!-- ?sec-1 titles -->
+                <div>
+                    <button class="py-1 px-5 sec-border rounded-full text-[#00b98e]">About Us</button>
+                    
+                    <h1 class="font-extrabold text-[#0c1a3be6] text-4xl mt-4 mb-7">Award Wining Consultancy <br> Agency For Your Business</h1>
+
+                    <p class="text-[#303030da] mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu <br> diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no <br> labore lorem sit. Sanctus clita duo justo et tempor eirmod</p>
+                    <!-- sec-1 icon div-1 -->
+                    <div class=" flex gap-5">
+                        <i class="fa-solid fa-user-tie" style="background-color: #00b98e; padding: 15px 16px; height: 100%; color: white; border-radius: 50%; font-size: 18px;"></i>
+                        <div>
+                            <h1 class="font-extrabold text-[#0a142ce6]">Business Planning</h1>
+                            <p class="text-[#1d1d1dd1]">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat <br> ipsum lorem et sit sed stet lorem sit clita duo</p>
+                        </div>
+                    </div>
+                    <!-- sec-1 icon div-1 -->
+                    <div class=" flex gap-5 mt-3">
+                        <i class="fa-solid fa-chart-line" style="background-color: #00b98e; padding: 15px 15px; height: 100%; color: white; border-radius: 50%; font-size: 18px;"></i>
+                        <div>
+                            <h1 class="font-extrabold text-[#0a142ce6]">Financial Analaysis</h1>
+                            <p class="text-[#1d1d1dd1]">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat <br> ipsum lorem et sit sed stet lorem sit clita duo</p>
+                        </div>
+                    </div>
+
+                    <button class="bg-[#00b98e] text-white py-3 px-6 rounded-full mt-8">Read More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- //main section ends here -->
 </body>
 </html>
